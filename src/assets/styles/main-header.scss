@@ -1,0 +1,38 @@
+.main-header {
+    margin: 22px 0px;
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        img {
+            width: 300px;
+        }
+        
+    }
+    &__right {
+        display: flex;
+        align-items: center;
+        .cart-button {
+            display: flex;
+            li {
+                list-style: none;
+                margin-right: 22px;
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+        .search {
+            display: flex;
+            align-items: center;
+            input {
+                padding: 15px;
+                width: 100%;
+            }
+            .search-btn {
+                padding: 18px;
+                border: none;
+                background-color: rgb(224, 224, 40);
+            }
+        }
+    }
+}
